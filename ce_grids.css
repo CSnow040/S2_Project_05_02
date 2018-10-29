@@ -15,6 +15,7 @@
 
 /* Grid Rows Styles */
 
+/* These stles are made to make sure all of the rows flow correctly with the pages needed designs */
 div.row {
     width: 100%;
     clear: both;
@@ -28,6 +29,7 @@ div.row::after {
 
 /* Grid Columns Styles */
 
+/* All div selectors accompanied with which ever class of column it has attached to it is made to fit the design to the corresponding column designs */
 div[class^="column"] {
     float: left;
 }
@@ -74,6 +76,7 @@ div.column80 {
 
 /* Grid Spacing Styles */
 
+/* All selectors and classes used here are put there to make sure all content connected with these attributes have the box model design to provent container collapse */
 .row,
 .container,
 div[class^="column"],

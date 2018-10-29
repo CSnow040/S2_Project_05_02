@@ -14,10 +14,12 @@
 
 /* Window and Body Styles */
 
+/* This style adds a color to the sides of the website where there is no content covering it  */
 html {
     background-color: rgb(101, 101, 101);
 }
 
+/* This style makes a physical design to the website centering, giving it fonts to work with, and adding boundaries for the content of the page to stop at  */
 body {
     position: relative;
     background-color: white;
@@ -31,11 +33,13 @@ body {
     max-width: 960px;
 }
 
+/* The images are designed to mold together with each other */
 img {
     display: block;
     width: 100%;
 }
 
+/* The navigation list is designed to show you when you have visited whatever links are displayed on the web page */
 nav a:link,
 nav a:visited {
     text-decoration-style: none;
@@ -43,11 +47,13 @@ nav a:visited {
 
 /* Body Header Styles */
 
+/* The designs here make the missing spots that aren't covered by the content a maroon like color while giving it a sstopping point to not go over its intended placement */
 body>header {
     background-color: rgb(191, 68, 70);
     height: 40px;
 }
 
+/* The navigation bar on the web page are designed to fit horizontally within the website */
 nav ul li {
     display: block;
     float: left;
@@ -55,6 +61,7 @@ nav ul li {
     padding: 10px 0px;
 }
 
+/* This style shows you when you visied the links at the top of the page */
 body>header>nav a:link,
 body>header>nav a:visited {
     font-size: 0.9em;
@@ -62,6 +69,7 @@ body>header>nav a:visited {
     text-decoration: none;
 }
 
+/* This style shows the user when they are hovering over the hyper link if their curser goes over it at anytime  */
 body>header>nav a:hover,
 body>header>nav a:active {
     color: rgb(255, 211, 211);
@@ -69,11 +77,13 @@ body>header>nav a:active {
 
 /* DIV Container Styles */
 
+/* The div selector aquainted with the container class makes it so that the grid style applied in the corresponding stylesheet dfoes't make any conflicts including container collapse */
 div.container {
     padding-right: 8px;
     padding-bottom: 8px;
 }
 
+/* This style makes the div elements with the cell class are all in correct order on the webpage itself */
 div.cell a {
     display: block;
     width: 100%;
@@ -83,6 +93,7 @@ div.cell a {
 
 /* Footer Styles */
 
+/* This footer selector adds the styles needed for the fotter to look and flow well with the page */
 footer {
     position: absolute;
     right: 8px;
